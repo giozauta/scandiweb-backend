@@ -1,0 +1,19 @@
+{
+    "name": "zauta/backend",
+    "autoload": {
+        "psr-4": {
+            "Zauta\\Backend\\": "src/",
+            "Types\\": "graphql/types/"
+        }
+    },
+    "authors": [
+        {
+            "name": "giorgi",
+            "email": "zautashvili1994@gmail.com"
+        }
+    ],
+    "require": {
+        "webonyx/graphql-php": "^15.19"
+    }
+    
+}
